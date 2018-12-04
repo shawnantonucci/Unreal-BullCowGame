@@ -11,6 +11,6 @@ public:
 
 // Pleasse try and ignore this and focus on the interface abot ^^
 private:
-	int MyCurrentTry;
-	int MyMaxTries;
+	int MyCurrentTry = 1;
+	int MyMaxTries = 5;
 };
