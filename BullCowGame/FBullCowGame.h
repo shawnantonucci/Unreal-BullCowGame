@@ -32,7 +32,7 @@ public:
 	EGuessStatus CheckGuessValidity(FString) const; // TODO make a more rich return value.
 
 	void Reset(); // TODO make a more rich return value.
-	FBullCowCount SubmitGuess(FString);
+	FBullCowCount SubmitValidGuess(FString);
 
 // Pleasse try and ignore this and focus on the interface abot ^^
 private:
