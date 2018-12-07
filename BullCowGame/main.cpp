@@ -46,7 +46,8 @@ void PrintIntro()
 	std::cout << " | _ \\ | || | | | | | (_-<    / _ \\  | ' \\  / _` |   | (__  / _ \\ \\ V  V / (_-<"	<< std::endl;
 	std::cout << " |___/  \\_,_| |_| |_| /__/   /_/ \\_\\ |_||_| \\__,_|    \\___| \\___/  \\_/\\_/  /__/"	<< std::endl;
                                                                                
- 
+	std::cout << std::endl;
+	std::cout << std::endl;
 	std::cout << "Can you guess the " << BCGame.GetHiddenWordLength();
 	std::cout << " letter isogram I'm thinking of?\n";
 	std::cout << std::endl;
