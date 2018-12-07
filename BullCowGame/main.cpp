@@ -21,7 +21,7 @@ FBullCowGame BCGame; // instantiate a new game
 // the entry point for our application
 int main()
 {
-	std::cout << BCGame.GetCurrentTry();
+	//std::cout << BCGame.GetCurrentTry();
 
 	bool bPlayAgain = false;
 	do {
@@ -38,7 +38,7 @@ int main()
 	// introduce the game
 void PrintIntro() 
 {
-	std::cout << "Welcome to Bulls and Cows, a fun word game.\n";
+	std::cout << "\n\nWelcome to Bulls and Cows, a fun word game.\n";
 	std::cout << "Can you guess the " << BCGame.GetHiddenWordLength();
 	std::cout << " letter isogram I'm thinking of?\n";
 	std::cout << std::endl;
